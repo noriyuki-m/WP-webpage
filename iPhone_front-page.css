@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+}
+
+header{
+  background-color: #FFF5EE;
+  width: 375px;
+}
+
+header h3{
+  text-align: right;
+}
+
+header h1{
+  text-align: center;
+}
+.top-wrapper{
+  position: relative;
+}
+
+.top-wrapper h1{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  color: white;
+  font-weight: lighter; 
+}
+
+.topimage{
+  width: 375px;
+  height: 285px;
+}
+
+.middle-wrapper{
+  position: relative;
+}
+
+.middle-wrapper h1{
+  position: absolute;
+  left: 0;
+  top: 5px;
+  color: white;  
+}
+
+.middle-wrapper .p-head{
+  position: absolute;
+  top: 160px;
+  width: 314px;
+  height: 163px;
+  color: black;
+}
+
+.middle-wrapper .p-foot{
+  position: absolute;
+  top: 320px;
+  width: 314px;
+  height: 163px;
+  color: black;
+}
+
+li {
+  background-color: white:
+}
+
+.takeoutimage{
+  width: 335px;
+  object-fit: cover
+  padding: 0 20px;
+}
+
