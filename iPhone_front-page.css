@@ -3,18 +3,33 @@
 }
 
 header{
-  background-color: #FFF5EE;
-  width: 375px;
+  background-color: rgb(221, 201, 187);
+  /* width: 375px; */
 }
-
+.header-form{
+  display: flex;
+  justify-content: center;
+}
 header h3{
   text-align: right;
+  padding-right: 20px;
 }
 
 header h1{
   text-align: center;
 }
-.top-wrapper{
+
+.searchbox{
+  border-radius: 5px;
+  height: 30px;
+}
+.searchname{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+/* .top-wrapper{
   position: relative;
 }
 
@@ -24,47 +39,32 @@ header h1{
   top: 100px;
   color: white;
   font-weight: lighter; 
-}
+} */
 
-.topimage{
+/* .topimage{
+  background-image: url("img/hamburger.png");
   width: 375px;
   height: 285px;
+} */
+
+.topimage{
+  background-image: url("img/hamburger.png");
+  width: 100%;
+  height: auto;
+  /* background-size: cover; */
+  background-position: center;
 }
 
-.middle-wrapper{
-  position: relative;
+.middle-wrapper  .p-head{
+  background-color: white;
+  opacity: 0.5;
 }
-
-.middle-wrapper h1{
-  position: absolute;
-  left: 0;
-  top: 5px;
-  color: white;  
-}
-
-.middle-wrapper .p-head{
-  position: absolute;
-  top: 160px;
-  width: 314px;
-  height: 163px;
-  color: black;
-}
-
-.middle-wrapper .p-foot{
-  position: absolute;
-  top: 320px;
-  width: 314px;
-  height: 163px;
-  color: black;
-}
-
-li {
-  background-color: white:
+.middle-wrapper  .p-foot{
+  background-color: white;
+  opacity: 0.5;
 }
 
 .takeoutimage{
-  width: 335px;
-  object-fit: cover
-  padding: 0 20px;
+  background-image: url("img/takeout.png");
 }
 

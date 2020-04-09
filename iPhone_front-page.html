@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTMLの書き方</title>
   <link rel="stylesheet" href="iPhone_front-page.css">
 </head>
@@ -11,31 +12,38 @@
   <header>
     <h3>Menu</h3>
     <h1>Hamburger</h1>
-    <form action="//example.php" method="post">
-      <input type="text" name="namae" id="username">
-      <label for="username">検索</label>
-    </form>
+    <div class="header-form">
+      <form action="//example.php" method="post">
+        <input class="searchbox" type="text" name="namae" id="username">
+        <label class="searchname" for="username">検索</label>
+      </form>
+    </div>
   </header>
 
   <div class="top-wrapper">
-    <img src="hamburger.png" class="topimage" alt="バンバーガー画像">
-    <h1>ダミーサイト</h1>
+    <section class="topimage">
+      <h1>ダミーサイト</h1>
+    </section>
   </div>
 
   <div class="middle-wrapper">
-    <img src="takeout.png" class="takeoutimage" alt="takeout画像">
-    <h1>Take Out</h1>
-    <ul>
-      <li class="p-head">
-        <h4>小見出しが入ります</h4>
-        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-      </li>
-      <li class="p-foot">
-        <h4>小見出しが入ります</h4>
-        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-      </li>
-    </ul>
+    <div class="takeoutimage">
+
+      <h1>Take Out</h1>
+      <ul>
+        <li class="p-head">
+          <h4>小見出しが入ります</h4>
+          <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+        </li>
+        <li class="p-foot">
+          <h4>小見出しが入ります</h4>
+          <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+        </li>
+      </ul>
+
+    </div>
   </div>
+
 </body>
 
 </html>
